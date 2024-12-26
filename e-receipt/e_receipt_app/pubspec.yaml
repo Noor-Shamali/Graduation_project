@@ -1,0 +1,36 @@
+name: e_receipt_app
+description: A new Flutter project.
+
+# Prevent the package from being accidentally published to pub.dev
+publish_to: "none"
+
+# Version information
+version: 1.0.0+1
+
+# SDK constraint
+environment:
+  sdk: "^3.6.0"
+
+# Dependencies for the project
+dependencies:
+  flutter:
+    sdk: flutter
+  sqflite: ^2.0.0+4
+  path: ^1.9.0
+  http: ^1.2.2
+
+dependency_overrides:
+  http: ^1.2.2
+
+# Development dependencies
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  sqflite_common_ffi: ^2.0.0+1
+
+# Flutter configuration
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/image.png
+    - assets/logo.png
